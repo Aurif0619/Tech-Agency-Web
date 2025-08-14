@@ -1,0 +1,50 @@
+  body {
+      font-family: 'Segoe UI', sans-serif;
+  }
+
+  .navbar {
+      background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  }
+
+  .navbar-brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff;
+  }
+
+  .navbar-brand span {
+      color: #00ffb3;
+  }
+
+  .nav-link {
+      color: #fff !important;
+      font-weight: 500;
+      position: relative;
+  }
+
+  .nav-link::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -4px;
+      left: 0;
+      background-color: #00ffb3;
+      transition: 0.3s;
+  }
+
+  .nav-link:hover::after {
+      width: 100%;
+  }
+
+  .btn-custom {
+      background-color: #00ffb3;
+      color: #000;
+      font-weight: 500;
+      border: none;
+      transition: 0.3s;
+  }
+
+  .btn-custom:hover {
+      background-color: #00cc8a;
+  }
