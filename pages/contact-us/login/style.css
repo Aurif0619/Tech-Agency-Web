@@ -1,50 +1,130 @@
-  body {
-      font-family: 'Segoe UI', sans-serif;
-  }
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+}
 
-  .navbar {
-      background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
-  }
+.navbar {
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+}
 
-  .navbar-brand {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #fff;
-  }
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
 
-  .navbar-brand span {
-      color: #00ffb3;
-  }
+.navbar-brand span {
+    color: #00ffb3;
+}
 
-  .nav-link {
-      color: #fff !important;
-      font-weight: 500;
-      position: relative;
-  }
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    position: relative;
+}
 
-  .nav-link::after {
-      content: "";
-      position: absolute;
-      width: 0;
-      height: 2px;
-      bottom: -4px;
-      left: 0;
-      background-color: #00ffb3;
-      transition: 0.3s;
-  }
+.nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #00ffb3;
+    transition: 0.3s;
+}
 
-  .nav-link:hover::after {
-      width: 100%;
-  }
+.nav-link:hover::after {
+    width: 100%;
+}
 
-  .btn-custom {
-      background-color: #00ffb3;
-      color: #000;
-      font-weight: 500;
-      border: none;
-      transition: 0.3s;
-  }
+.btn-custom {
+    background-color: #00ffb3;
+    color: #000;
+    font-weight: 500;
+    border: none;
+    transition: 0.3s;
+}
 
-  .btn-custom:hover {
-      background-color: #00cc8a;
-  }
+.btn-custom:hover {
+    background-color: #00cc8a;
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-header h2 {
+    color: #2c5364;
+    font-weight: 700;
+}
+
+.login-header p {
+    color: #6c757d;
+}
+
+.form-control:focus {
+    border-color: #00ffb3;
+    box-shadow: 0 0 0 0.25rem rgba(0, 255, 179, 0.25);
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #6c757d;
+}
+
+.password-toggle:hover {
+    color: #00ffb3;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.forgot-password a:hover {
+    color: #00ffb3;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-footer a {
+    color: #00ffb3;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        margin: 20px auto;
+        padding: 20px;
+    }
+}
