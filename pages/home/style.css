@@ -124,4 +124,8 @@
          padding: 20px;
      }
  }
- 
+ .hero-content{
+background-image: url("/assets/bg-img.png");
+background-repeat: no-repeat;
+background-size: cover;    
+}
