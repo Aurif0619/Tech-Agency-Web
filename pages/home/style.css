@@ -125,9 +125,41 @@
       }
   }
 
-  .hero-content {
+  .hero-section {
       background-image: url("/assets/bg-img.png");
       background-repeat: no-repeat;
       background-size: cover;
-      height: 90vh;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+  }
+
+  .hero-section h1 {
+      font-size: 3rem;
+  }
+
+  .hero-section p {
+      max-width: 600px;
+  }
+
+  .hover-card {
+      transition: all 0.3s ease;
+  }
+
+  .hover-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  @media (max-width: 768px) {
+      .hero-section {
+          text-align: center;
+          height: auto;
+          padding: 60px 0;
+      }
+
+      .hero-section h1 {
+          font-size: 2rem;
+      }
   }
