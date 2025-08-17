@@ -12,17 +12,17 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Tech<span>Agency</span></a>
-            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+            <a class="navbar-brand" href="">Tech<span>Agency</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="/pages/about/about.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="/pages/services/services.html">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="/pages/projects/projects.html">Projects</a></li>
@@ -40,63 +40,162 @@
 
     <section class="hero-section d-flex align-items-center">
         <div class="container text-center text-md-start">
-            <h1 class="text-white fw-bold">Creative <br> Work Idea</h1>
-            <p class="text-white mt-3 mb-4">Transforming your business vision into a digital reality with innovative
-                solutions & cutting-edge technology.</p>
-            <a href="/pages/services/services.html" class="btn btn-custom me-2">Get Started</a>
-            <a href="/pages/about/about.html" class="btn btn-outline-light">Learn More</a>
+            <h1 class="text-white fw-bold">Innovative Digital <br>Solutions for Your Business</h1>
+            <p class="text-white mt-3 mb-4 lead">We transform your business vision into digital reality with cutting-edge technology and innovative solutions that drive growth.</p>
+            <a href="/pages/services/services.html" class="btn btn-custom me-2 btn-lg">Get Started</a>
+            <a href="/pages/about/about.html" class="btn btn-outline-light btn-lg">Learn More</a>
         </div>
     </section>
 
-    <section class="py-5 bg-light">
-        <div class="container text-center">
-            <h2 class="fw-bold mb-4">Our <span class="text-success">Solutions</span></h2>
-            <p class="text-muted mb-5">We help businesses grow with tailored digital services, ensuring innovation and
-                quality at every step.</p>
+    <section class="solutions-section">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title fw-bold">Our <span class="text-success">Solutions</span></h2>
+                <p class="text-muted mb-5 lead">
+                    We deliver cutting-edge digital services tailored to your business needs, ensuring innovation and excellence at every step.
+                </p>
+            </div>
+
             <div class="row g-4">
                 <div class="col-md-4">
-                    <div class="card shadow-sm h-100 border-0 p-4 hover-card">
-                        <i class="fas fa-laptop-code fa-2x text-success mb-3"></i>
-                        <h5>Web Development</h5>
-                        <p class="text-muted">Modern and scalable websites that represent your brand and drive results.
-                        </p>
+                    <div class="solution-card p-4 text-center">
+                        <div class="solution-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h4 class="fw-bold">Web Development</h4>
+                        <p class="text-muted">Modern, responsive websites built with the latest technologies to represent your brand and drive conversions.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary mt-3">Explore</a>
                     </div>
                 </div>
+                
                 <div class="col-md-4">
-                    <div class="card shadow-sm h-100 border-0 p-4 hover-card">
-                        <i class="fas fa-mobile-alt fa-2x text-success mb-3"></i>
-                        <h5>App Development</h5>
-                        <p class="text-muted">High-performing mobile applications for both Android and iOS platforms.
-                        </p>
+                    <div class="solution-card p-4 text-center">
+                        <div class="solution-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4 class="fw-bold">App Development</h4>
+                        <p class="text-muted">High-performance mobile applications for iOS and Android that engage users and grow your business.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary mt-3">Explore</a>
                     </div>
                 </div>
+                
                 <div class="col-md-4">
-                    <div class="card shadow-sm h-100 border-0 p-4 hover-card">
-                        <i class="fas fa-bullhorn fa-2x text-success mb-3"></i>
-                        <h5>Digital Marketing</h5>
-                        <p class="text-muted">Grow your audience and boost conversions with result-driven marketing
-                            strategies.</p>
+                    <div class="solution-card p-4 text-center">
+                        <div class="solution-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h4 class="fw-bold">Digital Marketing</h4>
+                        <p class="text-muted">Data-driven strategies to increase your online visibility, attract quality leads, and boost sales.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary mt-3">Explore</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
+    <section class="frontend-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold">Frontend <span class="text-success">Technologies</span></h2>
+                <p class="text-muted lead">We use the latest frontend technologies to create fast, responsive, and engaging user experiences.</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="frontend-card p-4 text-center">
+                        <div class="frontend-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h4>React.js</h4>
+                        <p class="text-muted">Building dynamic and high-performance single-page applications with reusable components.</p>
+                        <div class="mt-3">
+                            <span class="tech-badge">Components</span>
+                            <span class="tech-badge">Hooks</span>
+                            <span class="tech-badge">Redux</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="frontend-card p-4 text-center">
+                        <div class="frontend-icon">
+                            <i class="fab fa-angular"></i>
+                        </div>
+                        <h4>Angular</h4>
+                        <p class="text-muted">Enterprise-grade applications with powerful features and maintainable code structure.</p>
+                        <div class="mt-3">
+                            <span class="tech-badge">TypeScript</span>
+                            <span class="tech-badge">RxJS</span>
+                            <span class="tech-badge">Modules</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="frontend-card p-4 text-center">
+                        <div class="frontend-icon">
+                            <i class="fab fa-vuejs"></i>
+                        </div>
+                        <h4>Vue.js</h4>
+                        <p class="text-muted">Lightweight framework for building interactive and approachable user interfaces.</p>
+                        <div class="mt-3">
+                            <span class="tech-badge">Vuex</span>
+                            <span class="tech-badge">Router</span>
+                            <span class="tech-badge">Composition API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-number">250+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Expert Team Members</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Years of Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <div class="footer-logo">Tech<span>Agency</span></div>
-                    <p>Transforming your ideas into digital reality with cutting-edge technology and innovative
-                        solutions.</p>
+                    <p>Transforming your ideas into digital reality with cutting-edge technology and innovative solutions.</p>
                     <div class="social-icons mt-3">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 mb-4">
+                <div class="col-lg-2 col-md-4 mb-2">
                     <div class="footer-links">
                         <h5>Quick Links</h5>
                         <ul>
@@ -127,12 +226,13 @@
                             <li><i class="fas fa-map-marker-alt me-2"></i> 123 Tech Street, Silicon Valley</li>
                             <li><i class="fas fa-phone me-2"></i> +1 (234) 567-8900</li>
                             <li><i class="fas fa-envelope me-2"></i> info@techagency.com</li>
+                            <li><i class="fas fa-clock me-2"></i> Mon-Fri: 9AM - 6PM</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2025 TechAgency. All Rights Reserved.</p>
+                <p>&copy; 2025 TechAgency. All Rights Reserved. | <a href="#" class="text-white">Privacy Policy</a> | <a href="#" class="text-white">Terms of Service</a></p>
             </div>
         </div>
     </footer>
