@@ -62,14 +62,6 @@
      transform: translateY(-2px);
  }
 
- :root {
-     --primary-dark: #0f2027;
-     --primary-medium: #203a43;
-     --primary-light: #2c5364;
-     --accent-color: #00ffb3;
-     --light-color: #f8f9fa;
- }
-
  .services-hero {
      background: linear-gradient(rgba(15, 32, 39, 0.9), rgba(32, 58, 67, 0.9)),
          url('https://source.unsplash.com/1600x900/?technology,services') no-repeat center center;

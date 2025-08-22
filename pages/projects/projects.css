@@ -3,6 +3,14 @@ body {
     overflow-x: hidden;
 }
 
+:root {
+    --primary-dark: #0f2027;
+    --primary-medium: #203a43;
+    --primary-light: #2c5364;
+    --accent-color: #00ffb3;
+    --light-color: #f8f9fa;
+}
+
 .navbar {
     background: linear-gradient(90deg, var(--primary-dark), var(--primary-medium), var(--primary-light));
     padding: 15px 0;
@@ -52,14 +60,6 @@ body {
 .btn-custom:hover {
     background-color: #00cc8a;
     transform: translateY(-2px);
-}
-
-:root {
-    --primary-dark: #0f2027;
-    --primary-medium: #203a43;
-    --primary-light: #2c5364;
-    --accent-color: #00ffb3;
-    --light-color: #f8f9fa;
 }
 
 .projects-hero {
@@ -192,7 +192,6 @@ body {
     transform: translateX(5px);
 }
 
-/* Testimonials Section */
 .projects-testimonials {
     background-color: var(--primary-light);
     color: white;
@@ -235,7 +234,6 @@ body {
     font-size: 0.9rem;
 }
 
-/* CTA Section */
 .projects-cta {
     background: linear-gradient(135deg, var(--primary-dark), var(--primary-medium));
     padding: 80px 0;
